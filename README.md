@@ -14,7 +14,6 @@ The **Incident Reporting App** is a user-friendly mobile application designed to
 - **Incident Reporting**: Easily report incidents by providing essential details, including type, location, and description.
 - **Status Tracking**: View the status of reported incidents and receive updates on their resolution.
 - **Photo Uploads**: Attach images to incident reports for better context.
-- **Notifications**: Get real-time notifications on incident updates and responses.
 - **Search and Filter**: Quickly find reported incidents using search and filter options.
 
 ---
