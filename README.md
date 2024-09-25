@@ -32,8 +32,9 @@ The **Incident Reporting App** is a user-friendly mobile application designed to
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/incident-reporting-app.git
-   cd incident-reporting-app
+   git clone https://github.com/yourusername/incidentreporta.git
+   cd incidentreporta
+   
 Install Dependencies: Make sure you have Flutter installed. Run the following command:
 
 bash
@@ -52,11 +53,13 @@ flutter run
 Usage
 Reporting an Incident:
 
-Navigate to the reporting section.
-Fill in the necessary details and submit your report.
+Navigate to Admins Screen section.
+Select the Admin you want to report to (This will open up a chat view)
+Fill in the necessary details (tick the incident checkbox).You can also pick an image,write the description and submit your report.
 Tracking Incidents:
 
-Access your reported incidents from the dashboard to view their status and updates.
+Go to Messages, Select the chat with the incided you reported.View the status just above the incident message.The status is either pending or solved
+
 Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
@@ -78,8 +81,7 @@ License
 This project is licensed under the [Mozilla Public License 2.0 (MPL 2.0)] License. See the LICENSE file for details.
 
 Contact
-For any inquiries or support, please contact:
+For any inquiries or support, please contact Me:
 
-Your Name
 Email: elvissango887@gmail.com
 GitHub: elvissango8
