@@ -51,6 +51,52 @@ bash
 Copy code
 flutter run
 Usage
+
+# Setup Firebase for Flutter App
+
+## Prerequisites
+- Ensure you have Flutter installed. Follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install) if needed.
+
+## Steps to Setup Firebase
+
+1. **Create a Firebase Project**:
+   - Go to the [Firebase Console](https://console.firebase.google.com/) and click on "Add project".
+   - Follow the prompts to create a new project.
+
+2. **Register Your App**:
+   - In your Firebase project, navigate to "Project Settings" (the gear icon next to "Project Overview").
+   - Under "Your apps", add a new app for both Android and iOS:
+     - For **Android**:
+       - Enter your Android package name (you can find this in `android/app/build.gradle`).
+       - Download the `google-services.json` file.
+       - Rename it to `google-services.json` and place it in the `android/app/` directory.
+     - For **iOS**:
+       - Enter your iOS bundle ID (you can find this in `ios/Runner.xcodeproj/project.pbxproj`).
+       - Download the `GoogleService-Info.plist` file.
+       - Rename it to `GoogleService-Info.plist` and place it in the `ios/Runner/` directory.
+
+3. **Copy Template Files**:
+   - From the root of your project, copy `google-services-template.json` to `android/app/` and rename it to `google-services.json`.
+   - Copy `GoogleService-Info-template.plist` from the root to `ios/Runner/` and rename it to `GoogleService-Info.plist`.
+
+4. **Build Your App**:
+   - Run `flutter pub get` to install dependencies.
+   - You can now run the app using:
+     ```bash
+     flutter run
+     ```
+
+## Notes
+- Ensure you have the Google Services plugin set up for both Android and iOS as per the [Firebase setup instructions](https://firebase.google.com/docs/flutter/setup).
+
+
+
+
+
+
+
+
+
 Reporting an Incident:
 
 Navigate to Admins Screen section.
